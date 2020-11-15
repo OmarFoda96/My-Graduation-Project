@@ -1,0 +1,79 @@
+body
+{
+    background-color: #1a0000;
+}
+.erAll
+{
+    position: relative;
+    top: 150px;
+}
+.c1
+{
+    
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 15px;   
+    margin-top: 25px;
+    width: 380px;
+    color: #fff709;
+}
+.erTitle
+{
+    background-color: rgba(0,0,0,0.3);
+    font-size: 70px;
+    color: #fff709;
+    text-shadow: 3px 3px 10px red;
+    padding-left: 20%;
+    border-radius: 10px;    
+}
+p
+{
+    color: #fff709;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* author : theme-forest.com */

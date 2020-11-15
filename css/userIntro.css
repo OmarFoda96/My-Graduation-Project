@@ -1,0 +1,353 @@
+/*==========================================    Login css ===================================================*/
+.bg
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+}
+.login
+{
+    position: relative;
+    top: 130px;
+    z-index: 2;
+}
+.dont
+{
+    text-decoration: none;
+    color: rgb(205, 1, 0);
+    padding-bottom: 10px;
+    font-family: 'Playfair Display SC', serif;
+}
+.create
+{
+    text-decoration: none;
+    color: rgba(250,1,0,1);
+    font-family: 'Playfair Display SC', serif;
+
+}
+/*==========================================    register css ===================================================*/
+img{max-width:100%;}
+body {/*
+    background:url('../images/banner-bg.jpg') no-repeat 0% 87% fixed;
+    background-size: cover;*/
+	text-align:center;
+/*
+    font-family: 'Acme';
+*/
+}
+/*--main--*/
+.main-agileits {
+    margin:  auto;
+   	background: rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 35px white;
+    border-radius: 5px;
+}
+.main-agileits:hover{
+    box-shadow: 3px 0px 20px #cad608;
+    background-color: rgba(0,0,0,0.6);
+/*    rgba(200,50,120,1)*/
+}
+.sub-head {
+    font-size: 38px;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Russo One', sans-serif;
+    
+}
+.sub-main
+{
+	position:relative;
+}
+.fa
+{
+    color: white;
+}
+.sub-main input[type="text"],.sub-main input[type="password"],.sub-main input[type="email"]  {
+    outline: none;
+    font-size: 1.1em;
+    margin: 4px 0px 18px 1px;
+    color: #1a0000;
+    padding: 10px 38px;
+    border: none;
+    border-radius: 2px;
+    width: 65%;
+    font-family: 'Playfair Display SC', serif;
+}
+.regsubmit {
+    color: white;
+    background: rgba(26,0,0,1);
+    border: none;
+    padding: 14px 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 17px;
+font-family: 'Playfair Display SC', serif;
+	cursor:pointer;
+	text-transform:uppercase;
+}
+.regsubmit:hover {
+    background: #1a0000;
+    color: #fff709;
+}
+
+/*--//main--*/
+
+
+/*--Responsive--*/
+@media(max-width:1440px){
+	.main-agileits {
+		width:35%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media(max-width:1366px){
+	.main-agileits {
+		width:36%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media(max-width:1280px){
+	.main-agileits {
+		width:40%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media(max-width:1024px){
+	.main-agileits {
+		width:50%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media(max-width:991px){
+	.main-agileits {
+		width:52%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media(max-width:800px){
+	.main-agileits {
+		width:64%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media (max-width: 768px){
+	.main-agileits {
+		width: 68%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media (max-width: 736px){
+	.main-agileits {
+		width: 70%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	
+	.sub-head {
+		font-size: 35px;
+	}
+}
+@media (max-width: 667px){
+	.main-agileits {
+		width: 78%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	
+}
+@media (max-width: 640px){
+	.main-agileits {
+		width: 80%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	
+}
+@media (max-width: 600px){
+	.main-agileits {
+		width: 84%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	
+}
+@media (max-width: 568px){
+	.main-agileits {
+		width: 88%;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	
+}
+@media (max-width: 480px){
+	.main-agileits {
+		width: 92%;
+	}
+	.bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	.sub-head {
+		padding: 36px;
+	}
+	
+}
+@media (max-width: 414px){
+	.main-agileits {
+		width: 95%;
+	}
+	.sub-main input[type="submit"] {
+		padding: 14px 70px;
+		margin: 52px;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	.sub-head {
+		font-size: 30px;
+	}
+}
+@media (max-width: 375px){
+	
+	.sub-head {
+		font-size: 30px;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media (max-width: 384px){
+	
+	.sub-head {
+		font-size: 28px;
+	}
+	
+	.sub-main input[type="submit"] {
+		padding: 14px 70px;
+		margin: 19px;
+	}
+	.sub-head {
+		padding: 18px 0 10px 0;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+}
+@media (max-width: 320px){
+	
+	.sub-head {
+		font-size: 28px;
+	}
+	.sub-main input[type="submit"] {
+		padding: 14px 49px;
+	}
+    .bg
+    {
+    width: 100%;
+    height: 100vh;
+    }
+	
+}
+/*--//Responsive--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* author : theme-forest.com */

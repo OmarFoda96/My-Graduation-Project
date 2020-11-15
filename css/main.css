@@ -1,0 +1,132 @@
+.bg
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+}
+.c1
+{
+    border-left: 2px;
+    border-style: solid;
+    border-color: rgba(86,19, 19, 0.4);
+    border-radius: 2px;
+    background-color: rgba(253,52,52,0.18);
+}
+.addBg /*loon l nav bar b3d l scroll*/
+{
+    background-color: rgba(26, 0, 0,0.8);
+}
+.navbar-inverse .navbar-nav > li > a /*l klam l f l nav bar*/
+{
+    color: #993440;
+    font-weight: 700;
+}
+.navbar-inverse .navbar-nav > li > a:hover
+{
+    color: #fff709;
+}
+.navbar-collapse> li > a:hover
+{
+    color: #1a0000;
+}
+.colord /*services background*/
+{
+    background-color: rgb(26, 0, 0);
+}
+.fa-arrow-circle-down:before
+{
+    color:#1a0000;
+}
+.fa-chevron-up:before
+{
+    color: rgb(153,52,52);
+}
+#services h2 {
+    color: #fff709;
+}
+.colord p
+{
+   color: #fff709;
+}
+.parlex-back
+{
+    background-color: rgba(26, 0, 0,0.9);
+}
+.copyright
+{
+    background-color: rgba(30, 0, 0,1);
+    border-top: 0.1px solid black;
+}
+.active a
+{
+    color: #fff709 !important;
+}
+.booking
+{
+    height: auto;
+}
+.circle
+{
+    color: #1a0000;
+}
+.navbar-inverse .navbar-toggle {
+    background-color: #1a0000;
+}
+#contactUs .btn
+{
+    position: relative;
+    width: 15%;
+    height: 50px;
+    left: -300px;
+}
+.banner-container > img
+{
+    background-color: black;
+}
+/*================================================================logo========================================================*/
+.mLogo:hover
+{
+    cursor: pointer;
+}
+.menu
+{
+    background-color: rgba(26,0,0,0.5);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* author : theme-forest.com */

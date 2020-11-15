@@ -1,0 +1,187 @@
+body
+{
+    background-color: #1a0000;
+}
+.klmtBook
+{
+    font-size: 65px;
+    font-weight: bold;
+    position: absolute;
+    left: 22%;
+    top: 150px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px 10px red;
+    color: #fff709;
+}
+.selectBooking
+{
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    width: 80%;
+}
+select
+{
+    height: 42px; 
+    padding: 5px;
+    padding-left: 35px; 
+    width: 32%;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: #1a0000;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+select:hover{
+    background-color: #e5eef2;/*
+    color: rgba(153,52,52,0.7);*/
+}
+.doctorLink
+{
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    background-color: rgba(0,0,0,0.7);
+    width: 10%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+}
+.dd
+{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+.dd:hover
+{
+    color: #e5eef2;
+    text-shadow: 3px 4px 5px #999a9a;
+    text-decoration: none;
+}
+/*--Responsive--*/
+@media (max-width: 736px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+#boookBtn
+    {
+        
+    }
+}
+@media (max-width: 667px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+}
+@media (max-width: 640px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+	
+}
+@media (max-width: 568px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+	
+}
+@media (max-width: 480px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+}
+@media (max-width: 414px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+}
+@media (max-width: 375px){
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+@media (max-width: 384px){
+	
+.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+}
+@media (max-width: 320px){
+	.klmtBook , h1
+    {
+        display: none;
+        font-size: 40px;
+    }
+}
+/*--//Responsive--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* author : theme-forest.com */
